@@ -67,8 +67,37 @@ header figure{
 
 header .phrase{
     text-align: center;
-    color:blue;
+    color:#313131;
     font-weight: 700;
     font-size: 1.2em;
+    background-color: white;
+   
+}
+main{
+    width: 100%;
+    margin-top: 200px;
 }
 
+main .about-me{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background: rgb(242,242,242);
+    padding: 40px 0;
+    margin-bottom: 200px;
+}
+
+
+main .about-me article{
+
+    width: 60%;
+    max-width: 1000px;
+    margin: auto;
+    line-height: 35px;
+    margin-bottom: 40px;
+}
+
+main .images-container figure a{
+margin-right: 30px;
+
+}
