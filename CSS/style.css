@@ -96,8 +96,123 @@ main .about-me article{
     line-height: 35px;
     margin-bottom: 40px;
 }
+main .about-me article b {
+    font-weight: 700;       
+}
 
+
+main .about-me .images-container {
+
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 main .images-container figure a{
 margin-right: 30px;
 
+}
+
+
+/* ===characteristics*/
+main .characteristics{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 300px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main .characteristics .dev-web{
+
+    width: 20%;
+    padding: 30px;
+    text-align: center;
+    background: rgb(235,235,235);
+    transition: all .3s ease;
+}
+
+main .characteristics .dev-web :hover{
+    transform: scale(1.1);
+    background: rgb(216,216,216);
+}
+
+main .characteristics .dev-web .title{
+
+    font-weight: 700;
+    font-size:25px;
+    color: black;
+    margin: 10px 0;
+}
+
+main .characteristics .dev-web .description{
+
+    font-weight: 300;
+    font-size: .9em;
+    color: #222;
+}
+
+/* ===Projects */
+
+main .projects{
+    width: 85%;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 300px;
+}
+
+main .projects .title{
+    font-size: 3em;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+main .projects p span a{
+    color:blue;
+}
+
+main .projects .description{
+    font-weight: 300;
+    color: #333;
+    font-size: 1.1em;
+    margin-bottom: 100px;
+}
+main .projects .project{
+    width: 100%;
+    padding: 20px;
+    background: rgb(235,235,235);
+    margin-bottom: 50px;
+    text-align: center;
+    color: #444;
+}
+
+.projects .project h3{
+
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.projects p{
+    font-weight: 400;
+}
+.project .project-link{
+    background: #F2784B;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+
+.project .project-link p{
+
+    display: inline-block;
+    margin: 0px 20px;
+
+}
+
+.project .project-link p a{
+    color: #fff;
 }
