@@ -164,6 +164,47 @@ main .characteristics .dev-web .description{
     color: #222;
 }
 
+/*Estudio */
+main .studies{
+    width: 85%;
+    margin: auto;
+    max-width: 1500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+main .studies .studies-aplied
+{
+    width: 25%;
+    text-align: center;
+    margin: 0 10px ;
+    margin-bottom: 30px;
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .studies .title{
+    width: 100%;
+    font-size: 3em;
+    color: #444;
+    margin-bottom: 20px;
+    margin: auto;
+    margin-bottom: 100px;  
+}
+main .studies .studies-aplied img
+{   
+    width: 370px;
+    margin: auto;
+
+    margin-bottom: 20px;
+   
+}
+
 /* ===Projects */
 
 main .projects{
