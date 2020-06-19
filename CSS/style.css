@@ -253,6 +253,14 @@ main .projects .project{
     margin-top: 20px;
     padding: 15px;
 }
+.projects .project .btn-view{
+    margin-left: 50px;
+    padding: 0px 10px 10px;
+    background-color: gray;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: black;
+}
 
 
 .project .project-link p{
